@@ -5,10 +5,34 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
+        <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+            <!-- Compiled and minified JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <title>Pig Game</title>
     </head>
-
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card center-align">
+            <span class="card-title">Rules</span>
+            <div class="card-content">
+              <ul>
+                <li>1. The game has 2 players, playing in rounds</li>
+                <li>2. In each turn, a player rolls a dice as many times as he whishes. Each result
+                get added to his ROUND score. BUT, if the player rolls a 1, all his ROUND score gets lost.</li>
+                <li>3. After that, it's the next player's turn<li>
+                <li>4. The player can choose to 'Hold', which means that his ROUND score gets
+                added to his GLBAL score.</li>
+                <li>5. After that, it's the next player's turn</li>
+                <li>6. The first player to reach 100 points on GLOBAL score wins the game</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <body>
         <div class="wrapper clearfix">
             <div class="player-0-panel active">
